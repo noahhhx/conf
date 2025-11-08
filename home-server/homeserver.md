@@ -22,3 +22,9 @@ Install and setup a WSL instance... then set WSL to startup with Windows
   - Ensure private network is enabled in the Windows 11 network settings.
 - We should now be able to access Portainer (and other containers using above technique) on any other device
  in the network. `https://192.168.0.26:9443`
+
+## Jellyfin
+Media system. \
+https://github.com/jellyfin/jellyfin \
+[jellyfin.md](./jellyfin/jellyfin.md) \
+[jellyfin docker compose](./jellyfin/docker-compose.yml)

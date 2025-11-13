@@ -23,6 +23,9 @@ Install and setup a WSL instance... then set WSL to startup with Windows
 - We should now be able to access Portainer (and other containers using above technique) on any other device
  in the network. `https://192.168.0.26:9443`
 
+## Tailscale
+Self explanatory, just install on devices and voilà.
+
 ## Jellyfin
 Media system. \
 https://github.com/jellyfin/jellyfin \

@@ -11,3 +11,10 @@
   if no internet check /etc/resolv.conf for nameserver 8.8.8.8 entry.
 - Install git
   `sudo pacman -S git`
+- Install the AUR
+  ```shell
+  git clone https://aur.archlinux.org/yay.git
+  cd yay
+  makepkg -si
+  ```
+  `rm -rf ~/yay`

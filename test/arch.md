@@ -76,7 +76,7 @@ In hyprland conf: \
 
 #### Btop
 `yay -S btop` \
-`ln -s ~/dev/conf/arch/.config/btop/ ~/.config/btopls`
+`ln -s ~/dev/conf/arch/.config/btop/ ~/.config/btop`
 
 #### Docker
 `yay -S docker` \
@@ -84,6 +84,16 @@ In hyprland conf: \
 `sudo usermod -aG docker ${USER}` \
 `newgrp docker`
 `yay -S lazydocker`
+
+#### Blueberry
+`yay -S blueberry` # bluetooth manager
+
+#### Impala
+`yay -S impala` # wifi manager
+
+#### Jetbrains
+`yay -S jetbrains-toolbox` then install intellij yourself \
+
 
 
 

@@ -94,10 +94,17 @@ In hyprland conf: \
 #### Jetbrains
 `yay -S jetbrains-toolbox` then install intellij yourself \
 
+#### Github Desktop
+`yay -S github-desktop-bin`
 
+#### Gnome theme
+`yay -S xdg-desktop-portal` \
+`gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"` \
+`gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"`
 
+#### File Manager
+`yay -S nautilus`
 
-
-  
-  
-  
+##### Launch webapp
+`sudo cp ~/dev/conf/arch/bin/launch-browser /bin/` \
+`sudo chmod +x /bin/launch-webapp`

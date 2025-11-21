@@ -65,7 +65,25 @@ In hyprland conf: \
 `ln -s ~/dev/conf/arch/.config/elephant/ ~/.config/elephant` \
 
 ####  Hyprland
-`ln -S `
+`ln -s ~/dev/conf/arch/.config/hypr/ ~/.config/hypr`
+
+#### Alacritty
+`yay -S alacritty` \
+`ln -s ~/dev/conf/arch/.config/alacritty/ ~/.config/alacritty`
+
+#### Browser
+`yay -S brave-bin`
+
+#### Btop
+`yay -S btop` \
+`ln -s ~/dev/conf/arch/.config/btop/ ~/.config/btopls`
+
+#### Docker
+`yay -S docker` \
+`sudo systemctl enable --now docker.service` \
+`yay -S lazydocker`
+
+
 
 
   

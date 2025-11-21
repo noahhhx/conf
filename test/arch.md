@@ -60,7 +60,8 @@ walker \
 In hyprland conf: \
 `exec-once = elephant` \
 `exec-once = walker --gapplication-service` \
-`$menu = walker` 
+`$menu = walker` #
+`ln -s ~/dev/conf/arch/.config/walker/ ~/.config/walker` \
 
 
   

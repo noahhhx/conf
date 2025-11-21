@@ -54,6 +54,15 @@ waybar \
 `ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/waybar/` \
 add to hyprland.conf `exec-once waybar`
 
+#### App launcher
+walker \
+`yay -S walker-bin elephant-bin` \
+In hyprland conf: \
+`exec-once = elephant` \
+`exec-once = walker --gapplication-service` \
+`$menu = walker` 
+
+
   
   
   

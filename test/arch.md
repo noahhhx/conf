@@ -64,7 +64,8 @@ In hyprland conf: \
 `ln -s ~/dev/conf/arch/.config/walker/ ~/.config/walker` \
 `ln -s ~/dev/conf/arch/.config/elephant/ ~/.config/elephant` \
 
-#### 
+####  Hyprland
+`ln -S `
 
 
   

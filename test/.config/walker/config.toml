@@ -11,6 +11,8 @@ quick_activate = []
 
 [providers]
 default = [
+  "applications",
+  "runner",
   "desktopapplications",
   "menus",
   "websearch",

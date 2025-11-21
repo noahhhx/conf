@@ -44,10 +44,15 @@ hyprpaper \
 `ln -s ~/dev/conf/arch/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf` \
 add to hyprland.conf `exec-once hyprpaper`
 
+#### Font
+Cascadia Mono Nerdfont \
+`pacman -S ttf-cascadia-mono-nerd`
+
 #### Status bar
 waybar \
 `yay -S waybar` \
-`ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/waybar/`
+`ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/waybar/` \
+add to hyprland.conf `exec-once waybar`
 
   
   

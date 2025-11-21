@@ -62,6 +62,7 @@ In hyprland conf: \
 `exec-once = walker --gapplication-service` \
 `$menu = walker` #
 `ln -s ~/dev/conf/arch/.config/walker/ ~/.config/walker` \
+`ln -s ~/dev/conf/arch/.config/elephant/ ~/.config/elephant` \
 
 
   

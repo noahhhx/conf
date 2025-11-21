@@ -81,6 +81,8 @@ In hyprland conf: \
 #### Docker
 `yay -S docker` \
 `sudo systemctl enable --now docker.service` \
+`sudo usermod -aG docker ${USER}` \
+`newgrp docker`
 `yay -S lazydocker`
 
 

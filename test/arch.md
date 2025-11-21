@@ -35,6 +35,20 @@ At this point it may also be worth setting some of the defaults to make the rest
 ## Setup
 
 #### This repo
-Install the following packages
-- hyprpaper \
-`pacman -S hyprpaper`
+
+
+#### Wallpaper
+hyprpaper \
+`pacman -S hyprpaper` \
+`ln -s ~/dev/conf/arch/.config/wallpapers/ ~/.config/wallpapers/` \
+`ln -s ~/dev/conf/arch/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf` \
+add to hyprland.conf `exec-once hyprpaper`
+
+#### Status bar
+waybar \
+`yay -S waybar` \
+`ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/waybar/`
+
+  
+  
+  

@@ -44,6 +44,9 @@ hyprpaper \
 `ln -s ~/dev/conf/arch/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf` \
 add to hyprland.conf `exec-once hyprpaper`
 
+#### Lock screen
+`yay -S hyprlock` \
+
 #### Font
 Cascadia Mono Nerdfont \
 `pacman -S ttf-cascadia-mono-nerd`

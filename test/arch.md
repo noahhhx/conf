@@ -61,7 +61,7 @@ Cascadia Mono Nerdfont \
 #### Status bar
 waybar \
 `yay -S waybar` \
-`ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/waybar/` \
+`ln -s ~/dev/conf/arch/.config/waybar/ ~/.config/` \
 add to hyprland.conf `exec-once waybar`
 
 #### App launcher
